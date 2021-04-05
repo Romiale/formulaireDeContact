@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <nav>
+        <div class="nav_wrapper bg-blue">
+            <div>
+                Répertoire de contact
+            </div>
+            <div>
+                <input id="recherche" type="text" placeholder="Rechercher un contact">
+            </div>
+        </div>
+    </nav>
+    <div class="parentForm">
+        <div class="partForm1">
+            <div>
+                <h3 class="headForm bg-blue">Formulaire de contact</h3>
+            </div>
+            <form action="#" id="form_contact">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" class="custominput">
+                <label for="nom">Nom</label>
+                <input type="text" name="prenom" id="nom" class="custominput">
+                <label for="groupe">Groupe</label>
+                <select name="groupe" id="groupe" class="">
+                    <option value="fammille">fammille</option>
+                    <option value="ami">ami</option>
+                    <option value="collègue">collègue</option>
+                    <option value="travail">travail</option>
+                </select>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" rows="7" class="custominput"></textarea>
+                <div id="DivImage">
+                    <input type="file" name="photo" id="photo">
+                    <img src="a.svg" id="imgillustra" alt="twitter" width="90" height="90">
+                </div>
+                <div class="groupBtn">
+                    <button id="btn">Créer</button>
+                    <button id="btn2">Réinit</button>
+                </div>
+            </form>
+        </div>
+        <div class="partForm2">
+            <h3 class="headForm bg-blue">Liste des contacts</h3>
+            <div id="partForm2Contact">
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="formulaire.js"></script>
+</body>
+
+</html>

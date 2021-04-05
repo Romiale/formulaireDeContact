@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.bg-blue {
+    background: #679c91;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_wrapper div:nth-child(1) {
+    font-family: sans-serif;
+    font-size: 3.2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+#recherche::placeholder {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: rgb(231, 231, 231);
+}
+
+.parentForm {
+    background: #679c91;
+    ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90vh;
+}
+
+.partForm1 {
+    background: #F7F7F7;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #679c91;
+    ;
+}
+
+h3 {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 5%;
+    padding: 2vh;
+}
+
+.custominput {
+    width: 93%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #fff;
+    border-color: #679c91;
+    ;
+}
+
+.customselect {
+    width: 99%;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background: #fff;
+    border-color: #679c91;
+    ;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #679c91;
+    ;
+}
+
+#DivImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    height: auto;
+}
+
+#photo {
+    margin: 20px;
+    width: 40%;
+    height: auto;
+}
+
+.groupBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#btn {
+    background-color: #679c91;
+    ;
+    height: auto;
+    width: 40%;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn2 {
+    background-color: #EB5757;
+    height: auto;
+    width: 40%;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* deuxiem partie */
+
+.partForm2 {
+    background: #F7F7F7;
+    width: 56%;
+    margin: 10px;
+    overflow: auto;
+    border: 2px solid #679c91;
+    ;
+    font-family: sans-serif;
+    align-items: center;
+    /* font-size: 1em; */
+    font-weight: bold;
+    color: #949191;
+    line-height: 20px;
+}
+
+#partForm2Contact {
+    height: 80%;
+    width: auto;
+    overflow: auto;
+}
+
+.img_badge {
+    background: rgb(226, 216, 216);
+    width: 80px;
+    height: auto;
+    min-height: 80px;
+    border-radius: 40px;
+    margin: 20px 40px 20px 20px;
+    float: left;
+}
+
+.badge {
+    margin: 5px;
+    height: auto;
+    min-height: 10%;
+    background: rgb(234, 240, 231);
+}
+
+.spanSupr {
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+h4 {
+    color: rgb(37, 37, 36);
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
