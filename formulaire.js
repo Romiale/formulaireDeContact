@@ -33,7 +33,7 @@ onClickperson = event => {
         var new_bdge = document.createElement("div")
         var boutonSupprimer = document.createElement("button");
         var spanId = document.createElement('span');
-        spanId.innerText = element.id;
+        spanId.innerText = element.id.classeName="hidden";
         boutonSupprimer.innerText = spanId.innerText + " X";
         var prenom = document.createElement("h5");
         prenom.innerText = element.prenom + ' ' + element.nom + '   ' + '                 id: ' + spanId.innerText;
