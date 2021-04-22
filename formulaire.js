@@ -1,7 +1,7 @@
 var tabContact = [];
 onClickperson = event => {
     event.preventDefault()
-        // recuperation des données
+    // recuperation des données
 
     var person = {}
 
@@ -34,10 +34,10 @@ onClickperson = event => {
         var boutonSupprimer = document.createElement("button");
         var spanId = document.createElement('span');
         spanId.innerText = element.id;
-        spanId.className="hidden";
-        boutonSupprimer.innerText = spanId.innerText + " X";
+        spanId.className = "gray";
+        boutonSupprimer.innerText = spanId.innerText + "X";
         var prenom = document.createElement("h5");
-        prenom.innerText = element.prenom + ' ' + element.nom + '   ' + '                 id: ' + spanId.innerText;
+        prenom.innerText = element.prenom + ' ' + element.nom;
         var groupe = document.createElement("p");
         groupe.innerText = element.groupe
         var bio = document.createElement("p");
@@ -123,7 +123,7 @@ recherche.addEventListener('input', () => {
             spanId.innerText = elementTrouve.id;
             boutonSupprimer.innerText = spanId.innerText + " X";
             let prenom = document.createElement("h5");
-            prenom.innerText = elementTrouve.prenom + ' ' + elementTrouve.nom + '   ' + '             id: ' + spanId.innerText;
+            prenom.innerText = elementTrouve.prenom + ' ' + elementTrouve.nom ;
             let groupe = document.createElement("p");
             groupe.innerText = elementTrouve.groupe
             let bio = document.createElement("p");
@@ -161,10 +161,11 @@ recherche.addEventListener('input', () => {
                 var new_bdge = document.createElement("div")
                 var boutonSupprimer = document.createElement("button");
                 var spanId = document.createElement('span');
+                spanId.className = "gray";
                 spanId.innerText = element.id;
                 boutonSupprimer.innerText = spanId.innerText + " X";
                 var prenom = document.createElement("h5");
-                prenom.innerText = element.prenom + ' ' + element.nom + '   ' + '                 id: ' + spanId.innerText;
+                prenom.innerText = element.prenom;
                 var groupe = document.createElement("p");
                 groupe.innerText = element.groupe
                 var bio = document.createElement("p");
@@ -206,9 +207,10 @@ recherche.addEventListener('input', () => {
                 var boutonSupprimer = document.createElement("button");
                 var spanId = document.createElement('span');
                 spanId.innerText = element.id;
+                spanId.className = "gray";
                 boutonSupprimer.innerText = spanId.innerText + " X";
                 var prenom = document.createElement("h5");
-                prenom.innerText = element.prenom + ' ' + element.nom + '   ' + '                 id: ' + spanId.innerText;
+                prenom.innerText = element.prenom + ' ' + element.nom;
                 var groupe = document.createElement("p");
                 groupe.innerText = element.groupe
                 var bio = document.createElement("p");

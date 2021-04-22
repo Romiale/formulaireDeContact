@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .nav-wrapper {
@@ -66,24 +68,24 @@ form {
     padding: 2vh;
 }
 
-.custominput {
+input,
+textarea,
+select {
     width: 93%;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
     border-radius: 10px;
     background: #fff;
     border-color: #679c91;
-    ;
 }
 
-.customselect {
-    width: 99%;
-    padding: 30px;
-    margin-bottom: 40px;
+select {
+    width: 97%;
+    padding: 5px;
+    margin-bottom: 20px;
     border-radius: 10px;
     background: #fff;
-    border-color: #679c91;
-    ;
+    border-color: solid 2px #679c91;
 }
 
 label {
@@ -91,7 +93,6 @@ label {
     font-size: 1.3em;
     font-weight: 400;
     color: #679c91;
-    ;
 }
 
 #DivImage {
@@ -104,7 +105,7 @@ label {
 }
 
 #photo {
-    margin: 20px;
+    margin: 10px;
     width: 40%;
     height: auto;
 }
@@ -124,7 +125,7 @@ label {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
 }
@@ -186,6 +187,10 @@ label {
 .spanSupr {
     display: flex;
     flex-direction: row;
+    color: #fd0101;
+}
+
+.spanSupr>span {
     color: red;
 }
 
@@ -199,7 +204,3 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
 }
-.hidden{
-    color:#D8D8D6;
-}
-    
